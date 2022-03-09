@@ -18,5 +18,5 @@ const bb=()=>{
     }
 
 
-    
-    setInterval(bb,5000);
+
+    setInterval(bb,3000);
