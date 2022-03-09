@@ -6,15 +6,15 @@ setInterval(function(){
 },100)
 
 
-// const bb=()=>{
+const bb=()=>{
 
-//     fetch('https://animechan.vercel.app/api/random').then((user)=>{
-//      return user.json();
-//     }).then((message)=>{ 
-//         document.querySelector('.txt').textContent=message.quote;
-//     }).catch((e)=>{
-//         document.querySelector('.txt').textContent='Error';
-//     })
-//     }
+    fetch('https://animechan.vercel.app/api/random').then((user)=>{
+     return user.json();
+    }).then((message)=>{ 
+        document.querySelector('.txt').textContent=message.quote;
+    }).catch((e)=>{
+        document.querySelector('.txt').textContent='Error';
+    })
+    }
 
-//     setInterval(bb,8000);
+    setInterval(bb,5000);
